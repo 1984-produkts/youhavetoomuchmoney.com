@@ -1,0 +1,3 @@
+# Netlify redirect domain aliases to primary domain
+https://yhtmm.com/* https://youhavetoomuchmoney.com/:splat 301!
+https://yhtmmoney.com/* https://youhavetoomuchmoney.com/:splat 301!
