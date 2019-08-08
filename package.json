@@ -1,8 +1,8 @@
 {
-  "name": "@oddstronaut/gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
+  "name": "youhavetoomuchmoney.com",
+  "description": "The main webpage for _You Have too Much Money_",
   "version": "3.0.72",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "author": "Moacir P. de Sá Pereira <moacir.p@columbia.edu> (http://moacir.com)",
   "dependencies": {
     "gatsby": "2.13.53",
     "gatsby-plugin-manifest": "2.2.5",
@@ -53,10 +53,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oddstronaut/gatsby-starter-tailwind"
+    "url": "https://github.com/yhtmmoney/youhavetoomuchmoney.com"
   },
   "bugs": {
-    "url": "https://github.com/oddstronaut/gatsby-starter-tailwind/issues"
+    "url": "https://github.com/yhtmmoney/youhavetoomuchmoney.com/issues"
   },
   "publishConfig": {
     "access": "public"
