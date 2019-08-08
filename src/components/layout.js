@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql, useStaticQuery } from "gatsby";
-
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import Header from "./header";
 
 function Layout({ children }) {
@@ -31,12 +31,12 @@ function Layout({ children }) {
           </p>
 
           <p>
-            <a
+            <OutboundLink
               href="https://github.com/yhtmmoney/youhavetoomuchmoney.com"
               className="font-bold no-underline text-white"
             >
               GitHub (though why you’d want to?)
-            </a>
+            </OutboundLink>
           </p>
         </nav>
       </footer>
