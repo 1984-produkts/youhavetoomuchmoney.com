@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
+import { format } from "date-fns";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
@@ -18,7 +19,13 @@ const EpisodeIndex = ({ data }) => {
             </div>
             <div className="p-3 bg-gray-200 w-full">
               <Link to={episode.fields.slug}>
-                <h2 className="text-2xl">{episode.frontmatter.title} - ({episode.frontmatter.date})</h2>
+                <h2 className="text-2xl">
+                  {episode.frontmatter.title} - (
+                  <date>
+                    {format(new Date(episode.frontmatter.date), "dd MMMM yyyy")}
+                  </date>
+                  )
+                </h2>
               </Link>
               <p>{episode.excerpt}</p>
             </div>
