@@ -54,13 +54,6 @@ function Header({ siteTitle }) {
             >
               About
             </Link>
-
-            <Link
-              to="/contact"
-              className="block md:inline-block mt-4 md:mt-0 no-underline text-white"
-            >
-              Contact
-            </Link>
           </div>
         </div>
       </div>
