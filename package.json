@@ -4,9 +4,12 @@
   "version": "3.0.72",
   "author": "Moacir P. de Sá Pereira <moacir.p@columbia.edu> (http://moacir.com)",
   "dependencies": {
+    "@mdx-js/mdx": "^1.2.2",
+    "@mdx-js/react": "^1.2.2",
     "gatsby": "2.13.53",
     "gatsby-plugin-google-analytics": "^2.1.7",
     "gatsby-plugin-manifest": "2.2.5",
+    "gatsby-plugin-mdx": "^1.0.23",
     "gatsby-plugin-offline": "2.2.5",
     "gatsby-plugin-postcss": "2.1.2",
     "gatsby-plugin-purgecss": "4.0.0",
