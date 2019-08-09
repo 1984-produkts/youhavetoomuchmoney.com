@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql, useStaticQuery } from "gatsby";
-import { OutboundLink } from 'gatsby-plugin-google-analytics';
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 import Header from "./header";
 
 function Layout({ children }) {
@@ -25,10 +25,7 @@ function Layout({ children }) {
 
       <footer className="bg-blue-700">
         <nav className="flex justify-between max-w-4xl mx-auto p-4 md:p-8 text-sm">
-          <p className="text-white">
-            Design by{" "}
-              Artist
-          </p>
+          <p className="text-white">Design by Artist</p>
 
           <p>
             <OutboundLink
