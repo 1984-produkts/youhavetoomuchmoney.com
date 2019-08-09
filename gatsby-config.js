@@ -36,6 +36,20 @@ module.exports = {
         path: `${__dirname}/src/pages/`
       }
     },
-    `gatsby-plugin-mdx`
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `episodes`,
+        path: `${__dirname}/content/episodes/`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+        episodes: require.resolve("./src/components/episodes-layout.js"),
+        default: require.resolve("./src/components/default-page-layout.js")
+      }
+    }
   ]
 };
