@@ -23,9 +23,22 @@ function Layout({ children }) {
         {children}
       </main>
 
-      <footer className="bg-blue-700">
+      <footer className="bg-gray-700">
         <nav className="flex justify-between max-w-4xl mx-auto p-4 md:p-8 text-sm">
-          <p className="text-white">Design by Artist</p>
+          <p className="text-white">
+            Design by Maha S. Ahmed
+            <br />
+            Hosted by Netlify and the Internet Archive
+            <br />
+            ©2019, CC BY-SA-NC
+            <br />
+            <OutboundLink
+              href="https://1984produkts.com"
+              className="font-bold no-underline text-white"
+            >
+              1984 PRODUKTS, Inc.
+            </OutboundLink>
+          </p>
 
           <p>
             <OutboundLink
